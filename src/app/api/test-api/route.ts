@@ -14,7 +14,7 @@ export async function GET(req: NextRequest) {
         return NextResponse.json({error: 'No Header'}, {status:500})
     }
 
-    if (authorization != '123123') {
+    if (authorization != process.env.API_KEY) {
         return NextResponse.json({error: 'wrong password'}, {status:400})
     }
 
