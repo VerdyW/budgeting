@@ -40,8 +40,6 @@ export async function GET(request:NextRequest) {
 
     const data = await Expenses.find({})
 
-    console.log(data)
-
     if (!authorization) {    
         return NextResponse.json({error: 'No Header'}, {status:500})
     }
