@@ -25,11 +25,7 @@ const expenseSchema = new mongoose.Schema({
         unique: false,
     },
 
-    note: {
-        type: String,
-        required: [true, 'please enter password'],
-        unique: false,
-    },
+    note: String,
 
 })
 

@@ -22,7 +22,7 @@ export async function POST(request :NextRequest) {
 
         return NextResponse.json({
             message: "Expense saved",
-            sucess: true,
+            success: true,
             expense: savedExpenses
         },
         {status: 200})
