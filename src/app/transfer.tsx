@@ -32,12 +32,12 @@ const transfer = () => {
     };
 
   return (
-    <div className="flex flex-col items-center justify-items-center min-h-screen w-screen p-6 gap-16 sm:p-12 max-sm:gap-8">
+    <div className="flex flex-col justify-center w-full h-full gap-2">
 
         <h1 className='self-center text-3xl font-bold mb-4'>Transfer</h1>
 
-        <div className='grid grid-cols-2 w-full h-full gap-4'>
-            <div className='flex flex-col justify-center w-full h-full gap-2'>
+        <div className='flex w-full h-full gap-4'>
+            <div className='flex flex-col justify-center w-1/2 h-full gap-2'>
                 <label htmlFor='From'>From</label>
                 <select
                 className='p-2 border border-gray-300 rounded-lg mb-4 w-full focus:outline-none focus:border-gray-600'
@@ -54,7 +54,7 @@ const transfer = () => {
 
     
             
-            <div className='flex flex-col justify-center w-full h-full gap-2'>
+            <div className='flex flex-col justify-center w-1/2 h-full gap-2'>
 
                 <label htmlFor='To'>To</label>
                 <select
