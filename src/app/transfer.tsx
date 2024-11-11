@@ -32,7 +32,7 @@ const transfer = () => {
     };
 
   return (
-    <div className="flex flex-col justify-center w-full h-full gap-2">
+    <div className="flex flex-col items-center justify-items-center min-h-screen w-screen p-6 gap-16 sm:p-12 max-sm:gap-8">
 
         <h1 className='self-center text-3xl font-bold mb-4'>Transfer</h1>
 
