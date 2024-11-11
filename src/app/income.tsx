@@ -46,11 +46,9 @@ const income = () => {
         onChange={(e) => {setItemArray({...itemArray, category: e.target.value})}}
         >
         <option value="">Select a Category</option>
-        <option value="Food And Beverage">Food And Beverage</option>
-        <option value="Transport">Transport</option>
-        <option value="Netflix">Subscription</option>
-        <option value="Netflix">Entertainment</option>
-        <option value="Spotify">Shopping</option>
+        <option value="Main Job">Main Job</option>
+        <option value="Investment">Investment</option>
+        <option value="Side Job">Side Job</option>
         </select>
 
         <label className="text-Primary-950" htmlFor="Amount">Amount</label>
