@@ -36,7 +36,7 @@ const transfer = () => {
 
         <h1 className='self-center text-3xl font-bold mb-4'>Transfer</h1>
 
-        <div className='grid grid-cols-2 gap-4'>
+        <div className='grid grid-cols-2 w-full h-full gap-4'>
             <div className='flex flex-col justify-center w-full h-full gap-2'>
                 <label htmlFor='From'>From</label>
                 <select
