@@ -50,9 +50,11 @@ export default function expense() {
             <option value="">Select a Category</option>
             <option value="Food And Beverage">Food And Beverage</option>
             <option value="Transport">Transport</option>
-            <option value="Netflix">Subscription</option>
-            <option value="Netflix">Entertainment</option>
+            <option value="Subscription">Subscription</option>
+            <option value="Entertainment">Entertainment</option>
             <option value="Spotify">Shopping</option>
+            <option value="Investment">Investment</option>
+            <option value="Charity">Charity</option>
             </select>
 
             <label className="text-Primary-950" htmlFor="Amount">Amount</label>
